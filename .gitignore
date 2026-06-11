@@ -90,3 +90,8 @@ compound.config.json
 *.error.log
 _scratch/
 /odysseus/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example

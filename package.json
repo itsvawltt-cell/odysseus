@@ -4,9 +4,14 @@
     "url": "https://github.com/pewdiepie-archdaemon/odysseus.git"
   },
   "devDependencies": {
-    "@antithesishq/bombadil": "^0.3.2"
+    "@antithesishq/bombadil": "^0.3.2",
+    "wrangler": "^4.99.0"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   }
 }
